@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "template.hpp"
+#include "systems.hpp"
 
 // Demonstrate some basic assertions.
 TEST(HelloTest, BasicAssertions) {
@@ -9,5 +9,5 @@ TEST(HelloTest, BasicAssertions) {
     // Expect equality.
     EXPECT_EQ(7 * 6, 42);
 
-    EXPECT_NO_THROW({ bt::tmpl8::example_fun(0); });
+    EXPECT_NO_THROW({ bt::ecs::example_fun(0); });
 }

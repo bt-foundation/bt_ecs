@@ -1,8 +1,8 @@
-#include "template.hpp"
+#include "systems.hpp"
 
 #include "core.hpp"
 
-namespace bt::tmpl8 {
+namespace bt::ecs {
 void example_fun(int num) {
     bt::core::example_fun();
 }

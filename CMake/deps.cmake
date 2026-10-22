@@ -13,7 +13,7 @@ CPMAddPackage(
     NAME bt_core
     GITHUB_REPOSITORY "bt-foundation/bt_core"
     GIT_TAG dev # change to any branch you'd like
-    OPTIONS "BT_STANDALONE ON" # Custom CMake options
+    OPTIONS "bt_core_STANDALONE ON" "bt_core_BUILD_TESTS OFF" # Custom CMake options
 )
 Set_Property(TARGET bt_core PROPERTY FOLDER "Dependencies")
 

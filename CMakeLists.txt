@@ -1,7 +1,7 @@
 CMake_Minimum_Required(VERSION 4.0.0)
 
 # Change name here 
-Set(PROJECT_NAME bt_template)
+Set(PROJECT_NAME bt_ecs)
 
 Set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "")
 

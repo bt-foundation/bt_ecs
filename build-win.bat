@@ -4,6 +4,6 @@ IF NOT EXIST "build" mkdir "build"
 cd build
 
 :: Change name here
-cmake --preset "Windows Debug" -Dbt_template_STANDALONE=OFF ..\CMakeLists.txt
+cmake --preset "Windows Debug" -Dbt_ecs_STANDALONE=OFF -DCPM_SOURCE_CACHE=.cache ..\CMakeLists.txt
 
 PAUSE

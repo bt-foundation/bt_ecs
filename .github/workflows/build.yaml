@@ -109,7 +109,7 @@ jobs:
           cmake --build build/wasm --target clean
           cmake --build build/wasm
           mkdir bin/wasm
-          emcc -g build/wasm/libbt_template.a -o bin/wasm/template.js
+          emcc -g build/wasm/libbt_ecs.a -o bin/wasm/bt_ecs.js
 
       - name: Run tests
         working-directory: ${{github.workspace}}/build/wasm
