@@ -6,4 +6,4 @@ namespace bt::ecs {
 void example_fun(int num) {
     bt::core::example_fun();
 }
-} // namespace bt::tmpl8
+} // namespace bt::ecs
