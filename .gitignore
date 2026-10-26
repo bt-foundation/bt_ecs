@@ -77,5 +77,4 @@ bin/
 CMakeLists.txt.user
 CMakeUserPresets.json
 
-run-clang-format.bat
 run-clang-tidy.bat
